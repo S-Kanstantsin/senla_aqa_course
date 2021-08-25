@@ -16,6 +16,7 @@
 .idea/**/shelf
 
 # Generated files
+/**/.idea
 .idea/**/contentModel.xml
 
 # Sensitive or high-churn files
@@ -38,7 +39,7 @@
 # .idea/modules.xml
 # .idea/*.iml
 # .idea/modules
-# *.iml
+*.iml
 # *.ipr
 
 # CMake
