@@ -9,11 +9,11 @@ import static locator.Locator.*;
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class FifthTest extends StartAndEnd {
 
-        @Test
-        public void singOut() throws InterruptedException {
-            driver.findElement(SING_OUT_BUTTON).click();
-            Thread.sleep(1000);
-        }
+    @Test
+    public void singOut() throws InterruptedException {
+        driver.findElement(SING_OUT_BUTTON).click();
+        Thread.sleep(1000);
+    }
 
 
 }
